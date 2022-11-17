@@ -1,0 +1,36 @@
+/* only css rule */
+body{
+    background-color: "azure";
+    background-image: linear-gradient(45deg, rgb(170, 149, 152), rgba(50,60,200,0.8) );
+    
+}
+#container{
+    width: 80%;
+    margin: auto;
+    background-color: beige;
+    background-image: radial-gradient(lightpink,lightgray,bisque);
+    box-shadow: 5px 5px 10px 2px rgb(50,60,200);
+    padding: 1em;
+}
+header img{
+width:100%;
+height: auto;
+}
+/* main img{
+width: 100%;
+height: auto;
+} */
+figure{
+    /* width:100%; */
+    text-align: center;
+}
+h2{
+   /*  background-image: url("images/flower.gif");
+    background-repeat: no-repeat;
+    background-position: 80% bottom; */
+    background: url("images/flower.gif") no-repeat top left;
+    /* background-origin: content-box; */
+    background-size: cover;
+    padding: 2em;
+    border: 10px dotted #000;
+}
