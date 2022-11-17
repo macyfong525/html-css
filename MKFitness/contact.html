@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GYM</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="images/ico">
+    <script src="contact.js" defer></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1> MK Fitness </h1>
+
+        </header>
+        <hr>
+        <div id="menu">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="Fitness_Health.html">Fitness&amp;Health</a>
+                <a href="schedule.html">Schedule&amp;Class</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <hr>
+        <main>
+            <div id="contactDiv">
+                <h2>Contact Us</h2>
+
+                <h3>1. By Form</h3>
+                <p>Please fill in the following form to contact with us, <i>thanks you!!!</i></p>
+                <p>Required values are marked by an asterisk (*)</p>
+
+                <form id="contactForm">
+                    <fieldset id="customer">
+                        <legend>inquiry form</legend>
+
+                        <label for="title">Title</label>
+                        <input type="search" name="title" id="title" list="search-suggestions">
+                        <datalist id="search-suggestions">
+                            <option value="Mr.">
+                            <option value="Mrs.">
+                            <option value="Ms.">
+                        </datalist>
+                        <br>
+                        <br>
+                        <label for="myName">Name*</label>
+                        <input type="text" name="myName" id="myName" placeholder="first and last name" required>
+                        <br>
+                        <br>
+                        <label for="address">Street Address</label>
+                        <input type="text" name="address" id="address">
+                        <br>
+                        <br>
+                        <label for="city">City</label>
+                        <input type="text" name="city" id="city">
+                        <br>
+                        <br>
+                        <label for="state">State</label>
+                        <input type="text" name="state" id="state">
+                        <br>
+                        <br>
+                        <label for="postal">Postal Code</label>
+                        <input type="text" name="postal" id="postal" placeholder="nnnnn (-nnnn)">
+                        <br>
+                        <br>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" placeholder="(nnn) nnn-nnnn">
+                        <br>
+                        <br>
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" required>
+                        <br>
+                        <br>
+                        <div class=list>
+                            <label for="source">Where did you find us?
+                                <br>(select all that apply)</label>
+                            <select name="source" id="source" size="5" multiple>
+                                <option value="google">goggle</option>
+                                <option value="bing">bing</option>
+                                <option value="yahoo">yahoo</option>
+                                <option value="baidu">baidu</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+                        <label for="comments">Please leave your inquiry here:</label><br><br>
+                        <textarea name="comments" id="comments" rows="10" cols="60" accesskey="T"></textarea>
+
+                        <div><span><input type="checkbox" name="coupon" id="coupon" value="coupon"></span> Subscript us for more information
+                        </div>
+                    </fieldset>
+
+
+                    <div id="submitForm">
+                        <span><input type="submit" value="Submit My Form"></span>
+                        <span><input type="reset" value="Cancel"></span>
+                    </div>
+                </form>
+
+
+                <div id="location">
+                    <h3>2. In Person</h3>
+                    <figure>
+                        <img src="images/location.png" alt="location">
+                        <figcaption>You can find us in 700 Royal Ave, New Westminster, BC V3M 5Z5
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </main>
+        <hr>
+        <footer>
+            Copyright &copy; 2022 Mei Sze Fong(Macy) &amp; Ken Wong
+            <br>Email: <a href="mailto:mkgym@abc.com">mkgym@abc.com</a>
+            <br>Phone: <a href="tel:+1231231234">+1231231234</a>
+        </footer>
+    </div>
+</body>
+
+</html>

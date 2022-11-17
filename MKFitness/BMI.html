@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>GYM</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="images/favicon.ico" type="images/ico">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>BMI calculator</h1>
+        </header>
+        <hr>
+        <div id="menu">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="Fitness_Health.html">Fitness&amp;Health</a>
+                <a href="schedule.html">Schedule&amp;Class</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <hr>
+        <div id="BMIDiv">
+            <p>
+                The BMI is a convenient rule of thumb used to broadly categorize a person as underweight, normal weight, overweight, or obese based on tissue mass (muscle, fat, and bone) and height.
+            </p>
+            <form id="formforcal">
+                <label>Enter your weight in kilogram: </label>
+                <input type="text" name="kg" id="kg"><br>
+                <label for="m">Enter your height in meter: </label>
+                <input type="text" name="m" id="m"><br>
+
+                <input type="button" value="Calculate" onclick="calculateBMI();">
+            </form>
+
+            <p id="BMI"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
