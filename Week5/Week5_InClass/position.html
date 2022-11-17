@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Positions</title>
+    <style>
+        body {
+            min-width: 800px;
+            background-color: lightgoldenrodyellow;
+        }
+        
+        .parent {
+            border: 1px dotted black;
+            display: inline-block;
+            /* position:relative; */
+        }
+        
+        .box {
+            background-color: lightblue;
+            height: 100px;
+            width: 100px;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #two {
+            background-color: lightcoral;
+            /*         position: fixed;
+            top:20px;
+            left:50px;
+            z-index: -1; */
+            position: relative;
+            top: 20px;
+            left: 20px;
+            /* position: absolute;
+            top:10px;
+            left:10px; */
+        }
+        
+        p {
+            position: relative;
+            left: 20px;
+        }
+        
+        #firstpara {
+            background-color: lightcyan;
+            position: sticky;
+            top: 0;
+        }
+        
+        span {
+            background-color: rgb(25, 90, 52);
+            position: sticky;
+            left: 20px;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS position property</h1>
+    <div class="parent">
+        <div class="box">One</div>
+        <div class="box" id="two">Two</div>
+        <div class="box">Three</div>
+        <div class="box">Four</div>
+    </div>
+    <br>
+    <span>I am a span</span>
+    <p id="firstpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatibus minus illo natus totam provident praesentium temporibus ratione cupiditate tempora. Voluptate enim asperiores autem. Est nisi nobis illo minus nemo.</p>
+
+</body>
+
+</html>

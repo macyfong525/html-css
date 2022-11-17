@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #8d8dd8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    min-width: 800px;
+    margin: auto;
+    background-color: white;
+    /* box-shadow: 5px 5px 5px 1px lightblue; */
+}
+
+header {
+    background-color: #869dc7;
+    background-image: url(lighthouselogo.jpg);
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 150px;
+    height: 150px;
+    font-size: 1.5em;
+}
+
+h1 {
+    opacity: 0.1;
+}
+
+nav {
+    float: left;
+    width: 25%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    /* margin-bottom: 5px; */
+    background-color: lightblue;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.2em;
+    border: 1px solid rgb(60, 50, 200);
+    border-radius: 10px;
+}
+
+nav a:link {
+    color: red;
+}
+
+nav a:visited {
+    color: hotpink;
+}
+
+nav a:focus {
+    color: gold;
+}
+
+nav a:hover {
+    color: blueviolet;
+    box-shadow: 5px 5px 5px red;
+    font-size: 1.2em;
+}
+
+nav a:active {
+    color: green
+}
+
+nav li {
+    margin: 10px;
+    padding: 10px;
+}
+
+main {
+    width: 75%;
+    overflow: auto;
+    padding: 1em;
+}
+
+main img {
+    float: right;
+}
+
+main a {
+    /* display: inline-block; */
+    width: 200px;
+    background-color: red;
+}
+
+footer {
+    clear: both;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: lightblue;
+}
