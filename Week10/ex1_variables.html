@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning JavaScript</h1>
+    <h2>Using variables</h2>
+    <script>
+        // let const var keywords
+        //scope - visibility
+        //let or const --> block scope
+
+        
+            let sales = 10.5;
+            let shipping = 5;
+            let total = sales + shipping;
+            console.log(total);
+     
+{
+
+    const pi=3.14;
+    console.log(pi)
+}
+          //  pi=3.1417; gives error
+
+          //var --> function scope
+
+        //function definition
+          function calculateArea(radius){
+
+            var area = 3.14*radius*radius;
+            {
+                console.log(area);
+                let i=0;
+                console.log(i);
+            }
+            //console.log(i);
+            return area;
+
+          }
+
+        //invoking or calling the function
+          //let a = calculateArea(5);
+          
+         // console.log(calculateArea(5));
+         calculateArea(5);
+         
+
+
+
+
+
+        
+
+
+    </script>
+    
+</body>
+</html>

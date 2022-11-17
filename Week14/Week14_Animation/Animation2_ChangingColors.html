@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Animation Effects</title>
+
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <h1>Animation Effects</h1>
+
+    <h1>Hi!!My color is changing</h1>
+    <h2>Showing the use of Math.random and setInterval</h2>
+
+<script>
+                
+    let colorArray = ["#F2B7AA", "#B47E72", "#CCB0DF", "#F2E9BA", "#B896D0", "#E4F4CB", "#F5E177", '#F6F1C2'];
+    
+
+    let animate1 = setInterval(() => {
+        // let rand = Math.floor(Math.random()*colorArray.length);
+        // console.log(colorArray[rand])
+
+        rcolor = rgb(Math.random()*255 , Math.random()*255 , Math.random()*255 )  
+
+        document.body.style.backgroundColor = rcolor
+    }, 2000);
+    
+</script>
+
+
+</body>
+
+</html>
