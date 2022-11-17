@@ -1,0 +1,41 @@
+#wrapper {
+    max-width: 80%;
+    margin: auto;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black;     */
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgb(212, 211, 211);
+    font-family: Georgia, "Times New Roman", serif;
+    color: rgb(39, 105, 230);
+}
+
+nav {
+    letter-spacing: 0.1em;
+    word-spacing: 1em;
+}
+
+nav a {
+    word-spacing: 0em;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    background-color: blue;
+    padding: 5px 1em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+footer {
+    font-size: 0.7rem;
+    padding: 1em 0;
+    font-style: italic;
+}
+
+dt {
+    color: blue;
+}

@@ -1,0 +1,72 @@
+/* no html code */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+html {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#wrapper {
+    max-width: 80%;
+    margin: auto;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: black;     */
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 1em;
+}
+
+h1,
+h2 {
+    font-family: 'Dancing Script', cursive;
+    /* color:rgb( 0, 0,255); */
+    /* color:rgba( 0, 0, 255, 0.8); */
+    /* hexadecimal code */
+    color: #000000;
+    background-color: rgb(122, 99, 99);
+    text-shadow: -5px -5px 4px rgba(50, 50, 150, 0.8);
+}
+
+h1 {
+    padding: 0.5em
+}
+
+h2 {
+    padding: 1em
+}
+
+nav {
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+nav a {
+    text-transform: capitalize;
+    text-transform: uppercase;
+    /* its not working in block  */
+    text-align: center;
+}
+
+span {
+    color: deeppink;
+}
+
+
+/* p{
+    font-size: 1.2em;
+    text-indent: 1em;
+    text-align: center;
+} */
+
+footer {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.listelement {
+    font-style: italic;
+}
