@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Creating Tables</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            /* caption-side: bottom; */
+        }
+
+        tr:nth-child(2) {
+            background-color: rgb(224, 224, 160);
+        }
+
+        tr:nth-of-type(2) {
+            /* background-color: #ddbbbb; */
+        }
+
+        /* tr{
+            color: hotpink;
+        } */
+
+        p:first-child {
+            color: hotpink
+        }
+
+        p:nth-of-type(2) {
+            color: violet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Creating Tables</h1>
+    <p>Paragraph</p>
+    <div>
+        <h3>I am a heading</h3>
+        <p>Para 1</p>
+        <p>Para 2</p>
+    </div>
+
+    <table>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Birthday</th>
+            <th scope="col">Phone</th>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>5/13</td>
+            <td>123-456-7890</td>
+        </tr>
+        <tr>
+            <td>Sparky</td>
+            <td>11/28</td>
+            <td>303-555-5555</td>
+        </tr>
+        <tr>
+            <td>Karen</td>
+            <td>11/28</td>
+            <td>303-555-5555</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>11/28</td>
+            <td>303-555-5555</td>
+        </tr>
+
+    </table>
+
+    <h2>It is another table</h2>
+    <table>
+        <caption>Birthday Information</caption>
+        <tr>
+            <th id="name">Name</th>
+            <th id="birthday">Birthday</th>
+            <th id="phone">Phone</th>
+        </tr>
+        <tr>
+            <td headers="name">Jack</td>
+            <td headers="birthday">5/13</td>
+            <td headers="phone">123-456-7890</td>
+        </tr>
+        <tr>
+            <td headers="name">Sparky</td>
+            <td headers="birthday">11/28</td>
+            <td headers="phone">303-555-5555</td>
+        </tr>
+
+    </table>
+
+    <h2>This is about using rowspan and colspan</h2>
+    <table>
+        <tr>
+            <th colspan="2">Birthday List</th>
+        </tr>
+        <tr>
+            <td>James</td>
+            <td>1/11</td>
+        </tr>
+        <tr>
+            <td>Karen</td>
+            <td>5/1</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td rowspan="2">This spans two rows</td>
+            <td>Row 1 Col 2</td>
+        </tr>
+        <tr>
+
+            <td>Row 2 Col 2</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th scope="row">ID</th>
+            <td>101</td>
+            <td>102</td>
+        </tr>
+        <tr>
+            <th scope="row">First Name</th>
+            <td>James</td>
+            <td>Karen</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th id="studentid">ID</th>
+            <td headers="studentid">101</td>
+            <td headers="studentid">102</td>
+        </tr>
+        <tr>
+            <th scope="row">First Name</th>
+            <td>James</td>
+            <td>Karen</td>
+        </tr>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ab? Reprehenderit quos recusandae temporibus
+        sequi veniam illo ex sed odit perferendis saepe, minus obcaecati distinctio unde! Error quidem ipsa at?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ab? Reprehenderit quos recusandae temporibus
+        sequi veniam illo ex sed odit perferendis saepe, minus obcaecati distinctio unde! Error quidem ipsa at?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ab? Reprehenderit quos recusandae temporibus
+        sequi veniam illo ex sed odit perferendis saepe, minus obcaecati distinctio unde! Error quidem ipsa at?</p>
+</body>
+
+</html>

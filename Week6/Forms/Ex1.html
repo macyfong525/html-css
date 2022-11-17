@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Example</title>
+    <meta charset="utf-8" />
+    <style>
+        fieldset {
+            width: 500px;
+            border: 2px solid blue;
+        }
+        
+        legend {
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Join Our Newsletter</h1>
+    <form method="post">
+        <label>
+       First Name: 
+       <input type="text" name="firstname" id="firstname" placeholder="Enter your first name here.." required>
+    </label>
+        <br>
+        <br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" size="30">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <br>
+        <label for="url">URL Address:</label>
+        <input type="url" name="url" id="url">
+        <br>
+        <br>
+        <input type="submit" value="Sign Up">
+        <input type="reset" value="Clear Entries">
+        <input type="image" src="signup.gif" alt="Click for Submit action" width="80" height="30">
+        <button type="button">
+        <h5>I am a button</h5>
+        <p>Click me!!</p>
+    </button>
+        <fieldset>
+            <legend>Enter pizza details here</legend>
+            <h3>Choose Pizza Topping</h3>
+            <input type="checkbox" name="topping" id="cheese" value="cheese" checked>
+            <label for="cheese"> Extra Cheese</label>
+            <br>
+            <br>
+            <input type="checkbox" name="topping" id="sausage" value="sausage">
+            <label for="sausage"> Sausage</label>
+            <br>
+            <br>
+            <input type="checkbox" name="topping" id="Veggies" value="veggies">
+            <label for="Veggies"> Extra Veggies</label>
+
+
+            <h3>Choose Pizza Crust</h3>
+            <input type="radio" name="crust" id="thin" value="thin">
+            <label for="thin">Thin Crust</label>
+            <br>
+            <br>
+            <input type="radio" name="crust" id="thick" value="thick">
+            <label for="thick">Thick Crust</label>
+
+        </fieldset>
+        <br>
+        <br>
+        <h3>Scrolling Text Box</h3>
+        <label for="comments">Enter your comments here..</label>
+        <textarea name="comments" id="comments" rows="10">Comments:</textarea>
+
+        <h3>Choose your favorite color:</h3>
+        <label for="color">Favorite Color:</label>
+        <select name="color" id="color" size="3" multiple>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+    </select>
+    </form>
+
+</body>
+
+</html>
